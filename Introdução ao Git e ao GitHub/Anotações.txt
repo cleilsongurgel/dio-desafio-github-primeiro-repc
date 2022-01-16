@@ -14,3 +14,9 @@ git push origin main
 
 # Verificar o status do repositorio
 git status
+
+# Sequencia básica
+git add .
+git commit -m "mensagem"
+git push origin main
+git status
