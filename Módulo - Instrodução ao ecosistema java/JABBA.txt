@@ -1,0 +1,18 @@
+# instalando o gerenciador de JVM jabba passos:
+1 - instalar CURL: sudo apt install curl
+2 - Acessar o repositorio no github: https://github.com/shyiko/jabba
+3 - Verificar qual a versão que deseja instalar e exportar a variável. no exemplo foi utilizado a versão 0.11.2: export JABBA_VERSION=0.11.2
+4 - Executar o seguinte comando para realizar a instalação: curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+
+# Comandos básicos para testar o jabba
+jabba --version => Apresenta a versão instalada na máquina
+jabba ls-remote => Exibe todas as possíveis versões do java que podem ser instaladas e disponibilizadas
+
+# Exemplo de instalação de uma JVM específica:
+jabba install openjdk@1.11
+
+# Listando todas as versões instaladas via jabba
+jabba ls 
+
+# Escolhendo a versão que será utilizada no SO
+jabba use openjdk@1.11
