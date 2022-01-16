@@ -1,1 +1,16 @@
-aqui serão incluidas as anotações inerentes ao curso
+aqui serão incluidas as anotações inerentes ao curso:
+
+Principais comandos utlizados:
+
+
+# Para adicionar todos os arquivos
+git add -A
+
+# Realizar o commit
+git commit -m "Mensagem explicativa do commit"
+
+# Sincronizar com o github
+git push origin main
+
+# Verificar o status do repositorio
+git status
